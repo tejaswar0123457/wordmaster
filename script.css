@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.name{
+    text-align: center;
+}
+.items {
+    max-width: 300px;
+    width: 100%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 8px;
+    column-gap: 8px;
+  }
+  .board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    border: 3px solid black;
+    font-weight: bold;
+    
+  }
+ 
+  
